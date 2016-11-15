@@ -1,0 +1,34 @@
+{ "name": "php-node-dont",
+  "version": "0.0.1",
+  "description": "(Don't use this.) Adapter for serving web on the lowest common denominator: Combine the worst aspects of cgi-node with the worst aspects of PHP.",
+  "keywords": [ "php" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/php-node-dont#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/php-node-dont.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/php-node-dont/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "dont.js",
+  "scripts": {
+    "test": "nodejs test/all.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.0"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
