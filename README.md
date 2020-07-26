@@ -32,6 +32,14 @@ Usage
 <!--#toc stop="scan" -->
 
 
+Known issues
+------------
+
+* The `PATH_TRANSLATED` variable is not provided, and that's
+  [not a bug](https://bugs.php.net/bug.php?id=23610#1052878041).
+
+
+
 
 License
 -------

@@ -1,7 +1,10 @@
 { "name": "php-node-dont",
   "version": "0.0.1",
   "description": "(Don't use this.) Adapter for serving web on the lowest common denominator: Combine the worst aspects of cgi-node with the worst aspects of PHP.",
-  "keywords": [ "php" ],
+  "keywords": [
+    "footgun",
+    "php"
+  ],
 
   "author": "M.K. (https://github.com/mk-pmb)",
   "homepage": "https://github.com/mk-pmb/php-node-dont#readme",
@@ -26,7 +29,6 @@
 
   "dependencies": {},
   "devDependencies": {
-    "equal-pmb": "^0.1.0"
   },
 
 
