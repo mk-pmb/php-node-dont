@@ -18,6 +18,19 @@ you <i>could*</i> add a layer of PHP between your browser and your node app.
 
 
 
+Deprecated!
+-----------
+
+"Finally, I found a valid usecase for this!", I thought.
+However, a few minutes after starting to implement it,
+I remembered I (and you) could just use
+[`cgi-emu.php` from phutility][cgi-emu] instead,
+so I guess that's the final nail to the coffin.
+
+  [cgi-emu]: https://github.com/mk-pmb/phutility-160816-pmb/blob/master/web/cgi-emu.php
+
+
+
 
 Usage
 -----
@@ -25,8 +38,9 @@ Usage
 1. Blog about why you think you deserve to suffer,
    and why you chose this method.
 2. Consider trying self-flagelation instead.
-3. `cd /var/www/gfmo && npm install --save php-node-dont`
-4. Read the source because there's no proper docs.
+3. <del>`cd /var/www/gfmo && npm install --save php-node-dont`</del>
+4. <del>Read the source because there's no proper docs.</del>
+5. See deprecation notice above and consider using the cgi-emu instead.
 
 
 <!--#toc stop="scan" -->
